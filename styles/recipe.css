@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5{
 }
 body{
     background-color: white;
+    background-image: url(../images/silverware.jpg);
     color:#404040;
     font-size: 11pt;
     font-family: Georgia,Garamond, sans-serif;
