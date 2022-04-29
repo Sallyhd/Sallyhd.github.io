@@ -1,0 +1,61 @@
+<!-- Sally Haddad
+    ID 614192-->
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Sign Up Page</title>
+            <link rel="stylesheet" href="./styles/signup.css" />
+        </head>
+        <body>
+            <form action="http://mumstudents.org/params.php">
+                <fieldset>
+                    <legend>New User SignUp</legend>
+                    <div>
+                    <label>Name:</label>
+                    <input type="text" name="name" maxlength="16"/>
+                     </div>
+                    <div>
+                    <label>Gender</label>
+                    <input id="male" type="radio" name="gender" value="male" />
+                    <label class="normal" for="male">Male</label>
+                    <input id="female" type="radio" name="gender" value="female" checked/>
+                    <label class="normal" for="female">Female</label>
+                	</div>
+                    <div>
+                        <label>Age:</label>
+                        <input type="text" name="age" maxlength="2" size="6"/>
+                    </div>
+                    <div>
+                        <label>Personality type:</label>
+                        <input id="personality" type="text" name="personality" maxlength="4" size="6"/>
+                        (<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp" >Don't Know your type?</a>)
+                    </div>
+                    <div>
+                        <label>Favorite OS:</label>
+                        <select name="os">
+                            <option value="windows" selected>Windows</option>
+                            <option value="mac">Mac OS X</option>
+                            <option value="linux">Linux</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Seeking Age:</label>
+                        <input id="minAge" type="text" name="minAge" maxlength="2" size="6" placeholder="min"/>
+                        to
+                        <input id="maxAge" type="text" name="maxAge" maxlength="2" size="6" placeholder="max"/>
+                    </div>
+                    <div>
+                        <input type="submit" value="SignUp"/>
+                    </div>
+                </fieldset>
+            </form>
+            <div>
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img src="./images/w3c-html.png" alt="HTML5 Validator"/>
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img src="./images/w3c-css.png" alt="CSS Validator"/>
+                </a>
+            </div>
+        </body>
+    </html>

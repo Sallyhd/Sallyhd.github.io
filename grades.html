@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Retrieve Grade</title>
+</head>
+<body>
+    <form action="https://mumstudents.org/params.php">
+        <fieldset>
+<legend>Retrieve your grade</legend>
+<p>Name:</p>
+<input name="name" type="text"/>
+<p>Student ID:</p>
+<input type="text" name="id" maxlength="8"/>
+<p>Assignment:</p>
+<select name="assignment">
+    <option value="1" selected>Assignment 1</option>
+    <option value="2">Assignment 2</option>
+    <option value="3">Assignment 3</option>
+    <option value="4">Assignment 4</option>
+</select>
+<p>Choose your entry: </p>
+<input id="entry1" type="radio" name="entry" value="02/22"/>
+<label for="entry1">Feb, 2022</label> 
+<input id="entry2" type="radio" name="entry" value="05/22"/>
+<label for="entry2">May, 2022</label> 
+<input id="entry3" type="radio" name="entry" value="08/22"/>
+<label for="entry3">Aug, 2022</label> 
+<input id="entry4" type="radio" name="entry" value="11/22"/>
+<label for="entry4">Nov, 2022</label> 
+
+<p>I admit all information above are true and about me</p>
+<input id="yes" type="checkbox" name="lying" value="yes"/>
+<label for="yes">Yes</label>
+<input id="no" type="checkbox" name="lying" value="no"/>
+<label for="no">No</label>
+<br/><br/>
+<input type="submit" value="Get Grade!" />
+</fieldset>
+</form>
+</body>
+</html> 
