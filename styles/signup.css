@@ -1,3 +1,11 @@
+
+body {
+	background-color: white;
+	padding-left: 1em;
+}
+#bannerarea {
+	margin-bottom: 2em;
+}
 #personality{
     text-transform: uppercase;
     margin-right: 10px;
@@ -16,7 +24,7 @@ a{
     text-decoration: none;
     color: palevioletred;
 }
-div{
+form div{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -46,4 +54,20 @@ form{
 }
 #maxAge{
     margin-left: 5px;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0em;
+}
+
+ul li a img {
+	vertical-align: middle;
+}
+body > div, form {
+	width: 35em;
+}
+
+div {
+	overflow: hidden;
+    display: block;
 }
