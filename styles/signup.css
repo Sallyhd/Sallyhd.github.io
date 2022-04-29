@@ -5,6 +5,7 @@ body {
 }
 #bannerarea {
 	margin-bottom: 2em;
+    width: 35em;
 }
 #personality{
     text-transform: uppercase;
@@ -41,9 +42,6 @@ legend{
     border: 1px solid rgb(5, 5, 5);
     box-shadow: 1px 1px gray;
 }
-form{
-    width: 600px;
-}
 .normal{
     font-weight: normal;
     width: auto;
@@ -63,8 +61,9 @@ ul {
 ul li a img {
 	vertical-align: middle;
 }
-body > div, form {
-	width: 35em;
+
+form{
+    width:35em;
 }
 
 div {
