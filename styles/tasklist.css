@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+}
+.wrapper{
+   display: flex;
+   border: 2px solid blue;
+   padding: 5px;
+   width: 600px;
+}
+#leftSide {
+    flex-direction: column;
+    margin-right: 30px;
+    display: flex;
+    width: 50%;
+}
+#rightSide{
+    flex-direction: column;
+    margin-left: 30px;
+    display: flex;
+    width: 50%;
+}
+#addTask , #clearTasks , #taskTxt {
+    margin-bottom: 20px;
+}
