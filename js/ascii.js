@@ -3,7 +3,7 @@ $(document).ready(function(){
     let speed=250;
     let animationArray =[];
     var intervalID;
-    var counter =0;
+    var counter =0;    
     $("#start").click(function(){
         toggleBtn();
         $("#animation").prop("disabled","true");
