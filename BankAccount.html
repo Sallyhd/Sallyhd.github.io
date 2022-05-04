@@ -6,6 +6,7 @@
         <script src="./js/Account.js"></script>
     </head>
     <body>
+        <div id="mainPage">
         <div>
         <label for="accName">Account Name:</label>
         <input id="accName" type="text" />
@@ -16,9 +17,23 @@
         <input id="deposit" type="text" />
     </div>
         <button id="addAcc">Create New Account</button>
-        <div><textarea id="accountList" rows="20" cols="100" readonly></textarea></div>
+        <div>
+            <textarea id="accountList" rows="20" cols="100" readonly></textarea>
+        </div>
 
         <button id="depositBtn">Deposit</button>
         <button id="debit">Debit</button>
+        <input type="hidden" id="inOutValue"/>
+    </div>
+    <div id="DepitDeposit">
+        <select id="accNames">
+
+        </select>
+        <div>
+        <label for="amount">Amount</label>
+        <input id="amount" type="text" />
+    </div>
+    <button id="submitBtn" disabled>Submit</button>
+    </div>
     </body>
 </html>

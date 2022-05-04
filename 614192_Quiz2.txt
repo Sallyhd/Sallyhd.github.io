@@ -1,0 +1,10 @@
+Q1)they are all the same
+we can use the optional parameter of the function as index to get the position of the element in the list we are looping on
+and the element to get the current element in the list but we can use this to refer to the element also 
+
+Q2) $("div ul").each(function(){
+         $(this).css("color","blue"); --> for changing the ul font color
+ 	$(this).parent().css("color","blue");--> for changing the div font color
+     });
+
+Q3)$("body").append("<div><h1>JQuery Core</h1></div>");

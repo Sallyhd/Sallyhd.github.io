@@ -17,6 +17,9 @@ class Account{
     getDeposit(){
         return this.#deposit;
     }
+    setDeposit(newBalance){
+        this.#deposit = newBalance ;
+    }
     displayList(){
         var result ='';
         result += "Account Name: "+this.#accName+ ", Balance: " +this.#deposit + "\n" ;
