@@ -1,10 +1,10 @@
 $(document).ready(function(){
-            //$(".boundary").mouseover(mouseoverBoundry);
         $("#end").mouseover(function(){
             if($("#maze").find(".youlose").length == 0){
                 $("#status").text("You win!");
                 $("#maze .boundary").removeClass("youlose");
-                $("#maze .boundary").off("mouseover");
+                $("#maze").off("mouseover",".boundary");
+                $("#maze").off("mouseleave");
             }
         });
         $("#start").click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function(){
                 $("#maze .boundary").addClass("youlose");
                 $("#status").text("You lost!");
             });
-            $("#maze .boundary").on("mouseover",mouseoverBoundry);
+            $("#maze").on("mouseover",".boundary",mouseoverBoundry);
         });
         
 });
