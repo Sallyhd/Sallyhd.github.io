@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <form action ="http://localhost:8080/calc" method="POST">
+            <div>Enter two numbers
+                <input type = "text" name="first"/><br/>
+                <select id="operation" name="opt">
+                    <option value="add" selected>+</option>
+                    <option value="sub">-</option>
+                    <option value="mult">*</option>
+                    <option value="division">/</option>
+                </select>
+                <input type = "text" name="second"/><br/>
+                <input type="submit" value="Calculate"/>
+            </div>
+        </form>
+    </body>
+</html>
